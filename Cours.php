@@ -17,7 +17,7 @@ require_once('config.php');
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -88,18 +88,17 @@ require_once('config.php');
     <!-- Booking Start -->
 
     <!-- Search Form -->
-    <div class="mb-5" >
-        <div class="bg-white" style="padding: 15px; width: 430px; margin-left: 1250px; margin-top: 25px;" >
+    <div class="mb-5">
+        <div class="bg-white" style="padding: 15px; width: 430px; margin-left: 1250px; margin-top: 25px;">
             <div class="input-group">
                 <input type="text" class="form-control p-4" placeholder="Rechercher">
                 <div class="input-group-append">
-                    <span class="input-group-text bg-primary border-primary text-white"><i
-                            class="fa fa-search"></i></span>
+                    <span class="input-group-text bg-primary border-primary text-white"><i class="fa fa-search"></i></span>
                 </div>
             </div>
         </div>
     </div>
-    
+
 
     <div class="flex-container">
 
@@ -111,800 +110,242 @@ require_once('config.php');
                     <ul class="list-inline m-2">
                         <li class="mb-3 d-flex justify-content-between align-items-center">
                             <a class="text-dark" href="#premiereanne"><i class="fa fa-angle-right text-primary mr-2"></i>Licence 1</a>
-                            
+
                         </li>
                         <li class="mb-3 d-flex justify-content-between align-items-center">
                             <a class="text-dark" href="#deuxiemeanne"><i class="fa fa-angle-right text-primary mr-2"></i>Licence 2</a>
-                            
+
                         </li>
                         <li class="mb-3 d-flex justify-content-between align-items-center">
-                            <a class="text-dark" href="#troisiemeanne"><i
-                                    class="fa fa-angle-right text-primary mr-2"></i>Licence 3</a>
-                            
+                            <a class="text-dark" href="#troisiemeanne"><i class="fa fa-angle-right text-primary mr-2"></i>Licence 3</a>
+
                         </li>
                         <li class="mb-3 d-flex justify-content-between align-items-center">
-                            <a class="text-dark" href="#"><i
-                                    class="fa fa-angle-right text-primary mr-2"></i>Master 1</a>
-                            
+                            <a class="text-dark" href="#quatriemeanne"><i class="fa fa-angle-right text-primary mr-2"></i>Master 1</a>
+
                         </li>
                         <li class="d-flex justify-content-between align-items-center">
-                            <a class="text-dark" href="#"><i
-                                    class="fa fa-angle-right text-primary mr-2"></i>Master 2</a>
-                            
+                            <a class="text-dark" href="#cinquiemeanne"><i class="fa fa-angle-right text-primary mr-2"></i>Master 2</a>
+
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
 
-
-        <div class="accordion-body" style="width: 1231px; margin: 90px; margin-left:25px; color: black; background-color: white; padding: 45px 45px;">
-            <div class="accordion">
-                <div class="container" style="position: relative;">
-                <div class="label" id="premiereanne"><h3>Semestre 1</h3></div>
-                
-                <div class="content" style="padding:25px;" >
-                    <div class="container-fluid py-6" >
-                        <div class="container pt-7 pb-6">
-                            <div >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ALGORITHME</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Ezin Eugène<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">MERISE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr BONOU<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">TECHNOLOGIE WEB</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Aimé LOHA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">Réseaux</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr MBADI Léo<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ECONOMIE GENERALE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mme Rosaline BOA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">LANGUAGE C</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Roger ZOLA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
+        <?php
+        for ($id = 1; $id < 3; $id++) {
+            echo ('<div class="accordion">
             <div class="container" style="position: relative;">
-                <div class="label" id="premiereanne"><h3>Semestre 2</h3></div>
-
-                <div class="content" style="padding:25px;" >
-                    <div class="container-fluid py-6" >
-                        <div class="container pt-7 pb-6">
-                            <div >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
+            <div class="label" id="premiereanne"><h3>Semestre' . $id . '</h3></div>
+            
+            <div class="content" style="padding:25px;" >
+                <div class="container-fluid py-6" >
+                    <div class="container pt-7 pb-6">
+                        <div >');
+            $query = $bdd->prepare("SELECT * FROM cours WHERE semestre=?");
+            $query->execute([$id]);
+            $data = $query->fetchAll();
+            if(sizeof($data)==0)
+                echo('<div class="alert">Les cours du Semestre '.$id.'  ne sont pas encore disponibles</div>');
+            foreach ($data as $row) {
+                echo ('<div class="col-lg-12 col-md-10 col-sm-11 pb-11">
+                                           <div class="team-item bg-white mb-6" >
+                                                <div class="flex-container" style="margin: 20px; padding: 10px;">
+                                                    <div class="team-img position-relative overflow-hidden">
+                                                         <img class="img-fluid w-100" src="' . $row['couverture'] . '" alt="" style="height: 150px;">
+                                                     </div>
+                                                    <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
+                                                         <h4 class="text-truncate">' . $row['matiere'] . '</h4>
+                                                         <p class="m-0"><u>Nom de l\'enseignant:</u> ' . $row['auteur'] . '<br><u>Domaine:</u> ' . $row['classe'] . '<br> </p>                   
+                                                     </div>
+                                                     <div class="row" style="margin-top: 24px;">
+                                                         <a class="btn btn-outline-primary btn-square" href="' . $row['lien'] . '" download="' . $row['matiere'] . '"><i class="fa fa-download"></i></a>
+                                                         <a class="btn btn-outline-primary btn-square" href=""><i class="fa fa-eye"></i></a>
+                                                    </div>  
                                             </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ALGORITHME</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Ezin Eugène<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
                                             </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">MERISE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr BONOU<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">TECHNOLOGIE WEB</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Aimé LOHA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">Réseaux</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr MBADI Léo<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ECONOMIE GENERALE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mme Rosaline BOA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">LANGUAGE C</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Roger ZOLA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-
-                
-            </div>
-            <hr>
-            </div>
-            </div>
-        
-         
-        
-                    
-                </div>
+                                        </div>
+                                        <hr >');
+            }
+            echo ("</div>
             </div>
         </div>
-
-        <!-- Blog End -->
-        <div class="accordion-body" style="width: 1231px; margin: -43px; margin-left:474px; color: black; background-color: white; padding: 45px 45px;">
-            <div class="accordion">
-                <div class="container" style="position: relative;">
-                <div class="label" id="deuxiemeanne"><h3>Semestre 3</h3></div>
-                
-                <div class="content" style="padding:25px;" >
-                    <div class="container-fluid py-6" >
-                        <div class="container pt-7 pb-6">
-                            <div >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ALGORITHME</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Ezin Eugène<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">MERISE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr BONOU<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">TECHNOLOGIE WEB</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Aimé LOHA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">Réseaux</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr MBADI Léo<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ECONOMIE GENERALE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mme Rosaline BOA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">LANGUAGE C</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Roger ZOLA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="container" style="position: relative;">
-                <div class="label" id="deuxiemeanne"><h3>Semestre 4</h3></div>
-
-                <div class="content" style="padding:25px;" >
-                    <div class="container-fluid py-6" >
-                        <div class="container pt-7 pb-6">
-                            <div >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ALGORITHME</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Ezin Eugène<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">MERISE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr BONOU<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">TECHNOLOGIE WEB</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Aimé LOHA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">Réseaux</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr MBADI Léo<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ECONOMIE GENERALE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mme Rosaline BOA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">LANGUAGE C</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Roger ZOLA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-
-                
-            </div>
-            <hr>
-            </div>
-            </div>
-                    
-                </div>
-            </div>
-        </div>
-        <!--blog suite-->
-        <div class="accordion-body" style="width: 1231px; margin: 90px; margin-left:474px; color: black; background-color: white; padding: 45px 45px;">
-            <div class="accordion">
-                <div class="container" style="position: relative;">
-                <div class="label" id="troisiemeanne"><h3>Semestre 5</h3></div>
-                
-                <div class="content" style="padding:25px;" >
-                    <div class="container-fluid py-6" >
-                        <div class="container pt-7 pb-6">
-                            <div >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ALGORITHME</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Ezin Eugène<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">MERISE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr BONOU<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">TECHNOLOGIE WEB</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Aimé LOHA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">Réseaux</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr MBADI Léo<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ECONOMIE GENERALE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mme Rosaline BOA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">LANGUAGE C</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Roger ZOLA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="container" style="position: relative;">
-                <div class="label" id="troisiemeanne"><h3>Semestre 6</h3></div>
-
-                <div class="content" style="padding:25px;" >
-                    <div class="container-fluid py-6" >
-                        <div class="container pt-7 pb-6">
-                            <div >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ALGORITHME</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Ezin Eugène<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">MERISE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr BONOU<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">TECHNOLOGIE WEB</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Aimé LOHA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">Réseaux</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr MBADI Léo<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\cover.png" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">ECONOMIE GENERALE</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mme Rosaline BOA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                                <hr >
-                                <div class="col-lg-12 col-md-10 col-sm-11 pb-11">
-                                    <div class="team-item bg-white mb-6" >
-                                        <div class="flex-container" style="margin: 20px; padding: 10px;">
-                                            <div class="team-img position-relative overflow-hidden">
-                                                <img class="img-fluid w-100" src="C:\free-travel-website-template\img\moon-186x300.jpg" alt="" style="height: 150px;">
-                                            </div>
-                                            <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
-                                                <h4 class="text-truncate">LANGUAGE C</h4>
-                                                <p class="m-0"><u>Nom de l'enseignant:</u> Mr Roger ZOLA<br><u>Domaine:</u> Sciences et technologies<br> <u>Mention:</u> Informatique</p>                   
-                                            </div>
-                                            <div class="row" style="margin-top: 24px;">
-                                                <a class="btn btn-outline-primary btn-square" href="C:\free-travel-website-template\img\covercours.png" download="cover"><i class="fa fa-download"></i></a>
-                                                <a class="btn btn-outline-primary btn-square" href="file:///C:/free-travel-website-template/index.html"><i class="fa fa-eye"></i></a>
-                                            </div>  
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-
-                
-            </div>
-            <hr>
-            </div>
-            </div>
-        
-         
-        
-                    
-                </div>
-            </div>
-        </div>
-
-
-        
     </div>
+</div>");
+        }
+        ?>
 
+<?php
+        for ($id = 3; $id < 5; $id++) {
+            echo ('<div class="accordion">
+            <div class="container" style="position: relative;">
+            <div class="label" id="deuxiemeanne"><h3>Semestre' . $id . '</h3></div>
+            
+            <div class="content" style="padding:25px;" >
+                <div class="container-fluid py-6" >
+                    <div class="container pt-7 pb-6">
+                        <div >');
+            $query = $bdd->prepare("SELECT * FROM cours WHERE semestre=?");
+            $query->execute([$id]);
+            $data = $query->fetchAll();
+            if(sizeof($data)==0)
+                echo('<div class="alert">Les cours du Semestre '.$id.'  ne sont pas encore disponibles</div>');
+            foreach ($data as $row) {
+                echo ('<div class="col-lg-12 col-md-10 col-sm-11 pb-11">
+                                           <div class="team-item bg-white mb-6" >
+                                                <div class="flex-container" style="margin: 20px; padding: 10px;">
+                                                    <div class="team-img position-relative overflow-hidden">
+                                                         <img class="img-fluid w-100" src="' . $row['couverture'] . '" alt="" style="height: 150px;">
+                                                     </div>
+                                                    <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
+                                                         <h4 class="text-truncate">' . $row['matiere'] . '</h4>
+                                                         <p class="m-0"><u>Nom de l\'enseignant:</u> ' . $row['auteur'] . '<br><u>Domaine:</u> ' . $row['classe'] . '<br> </p>                   
+                                                     </div>
+                                                     <div class="row" style="margin-top: 24px;">
+                                                         <a class="btn btn-outline-primary btn-square" href="' . $row['lien'] . '" download="' . $row['matiere'] . '"><i class="fa fa-download"></i></a>
+                                                         <a class="btn btn-outline-primary btn-square" href=""><i class="fa fa-eye"></i></a>
+                                                    </div>  
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <hr >');
+            }
+            echo ("</div>
+            </div>
+        </div>
+    </div>
+</div>");
+        }
+        ?>
+        <?php
+        for ($id = 5; $id < 7; $id++) {
+            echo ('<div class="accordion">
+            <div class="container" style="position: relative;">
+            <div class="label" id="troisiemeanne"><h3>Semestre' . $id . '</h3></div>
+            
+            <div class="content" style="padding:25px;" >
+                <div class="container-fluid py-6" >
+                    <div class="container pt-7 pb-6">
+                        <div >');
+            $query = $bdd->prepare("SELECT * FROM cours WHERE semestre=?");
+            $query->execute([$id]);
+            $data = $query->fetchAll();
+            if(sizeof($data)==0)
+                echo('<div class="alert">Les cours du Semestre '.$id.'  ne sont pas encore disponibles</div>');
+            foreach ($data as $row) {
+                echo ('<div class="col-lg-12 col-md-10 col-sm-11 pb-11">
+                                           <div class="team-item bg-white mb-6" >
+                                                <div class="flex-container" style="margin: 20px; padding: 10px;">
+                                                    <div class="team-img position-relative overflow-hidden">
+                                                         <img class="img-fluid w-100" src="' . $row['couverture'] . '" alt="" style="height: 150px;">
+                                                     </div>
+                                                    <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
+                                                         <h4 class="text-truncate">' . $row['matiere'] . '</h4>
+                                                         <p class="m-0"><u>Nom de l\'enseignant:</u> ' . $row['auteur'] . '<br><u>Domaine:</u> ' . $row['classe'] . '<br> </p>                   
+                                                     </div>
+                                                     <div class="row" style="margin-top: 24px;">
+                                                         <a class="btn btn-outline-primary btn-square" href="' . $row['lien'] . '" download="' . $row['matiere'] . '"><i class="fa fa-download"></i></a>
+                                                         <a class="btn btn-outline-primary btn-square" href=""><i class="fa fa-eye"></i></a>
+                                                    </div>  
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <hr >');
+            }
+            echo ("</div>
+            </div>
+        </div>
+    </div>
+</div>");
+        }
+        ?>
+        <?php
+        for ($id = 7; $id < 9; $id++) {
+            echo ('<div class="accordion">
+            <div class="container" style="position: relative;">
+            <div class="label" id="quatriemeanne"><h3>Semestre' .$id. '</h3></div>
+            
+            <div class="content" style="padding:25px;" >
+                <div class="container-fluid py-6" >
+                    <div class="container pt-7 pb-6">
+                        <div >');
+            $query = $bdd->prepare("SELECT * FROM cours WHERE semestre=?");
+            $query->execute([$id]);
+            $data = $query->fetchAll();
+            if(sizeof($data)==0)
+                echo('<div class="alert">Les cours du Semestre '.$id.'  ne sont pas encore disponibles</div>');
+            foreach ($data as $row) {
+                echo ('<div class="col-lg-12 col-md-10 col-sm-11 pb-11">
+                                           <div class="team-item bg-white mb-6" >
+                                                <div class="flex-container" style="margin: 20px; padding: 10px;">
+                                                    <div class="team-img position-relative overflow-hidden">
+                                                         <img class="img-fluid w-100" src="' . $row['couverture'] . '" alt="" style="height: 150px;">
+                                                     </div>
+                                                    <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
+                                                         <h4 class="text-truncate">' . $row['matiere'] . '</h4>
+                                                         <p class="m-0"><u>Nom de l\'enseignant:</u> ' . $row['auteur'] . '<br><u>Domaine:</u> ' . $row['classe'] . '<br> </p>                   
+                                                     </div>
+                                                     <div class="row" style="margin-top: 24px;">
+                                                         <a class="btn btn-outline-primary btn-square" href="' . $row['lien'] . '" download="' . $row['matiere'] . '"><i class="fa fa-download"></i></a>
+                                                         <a class="btn btn-outline-primary btn-square" href=""><i class="fa fa-eye"></i></a>
+                                                    </div>  
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <hr >');
+            }
+            echo ("</div>
+            </div>
+        </div>
+    </div>
+</div>");
+        }
+        ?>
+
+<?php
+        for ($id = 9; $id < 11; $id++) {
+            echo ('<div class="accordion">
+            <div class="container" style="position: relative;">
+            <div class="label" id="quatriemeanne"><h3>Semestre' .$id. '</h3></div>
+            
+            <div class="content" style="padding:25px;" >
+                <div class="container-fluid py-6" >
+                    <div class="container pt-7 pb-6">
+                        <div >');
+            $query = $bdd->prepare("SELECT * FROM cours WHERE semestre=?");
+            $query->execute([$id]);
+            $data = $query->fetchAll();
+            if(sizeof($data)==0)
+                echo('<div class="alert">Les cours du Semestre '.$id.'  ne sont pas encore disponibles</div>');
+            foreach ($data as $row) {
+                echo ('<div class="col-lg-12 col-md-10 col-sm-11 pb-11">
+                                           <div class="team-item bg-white mb-6" >
+                                                <div class="flex-container" style="margin: 20px; padding: 10px;">
+                                                    <div class="team-img position-relative overflow-hidden">
+                                                         <img class="img-fluid w-100" src="' . $row['couverture'] . '" alt="" style="height: 150px;">
+                                                     </div>
+                                                    <div style="width: 100%; margin-left: 20px; margin-top: 9px;">
+                                                         <h4 class="text-truncate">' . $row['matiere'] . '</h4>
+                                                         <p class="m-0"><u>Nom de l\'enseignant:</u> ' . $row['auteur'] . '<br><u>Domaine:</u> ' . $row['classe'] . '<br> </p>                   
+                                                     </div>
+                                                     <div class="row" style="margin-top: 24px;">
+                                                         <a class="btn btn-outline-primary btn-square" href="' . $row['lien'] . '" download="' . $row['matiere'] . '"><i class="fa fa-download"></i></a>
+                                                         <a class="btn btn-outline-primary btn-square" href=""><i class="fa fa-eye"></i></a>
+                                                    </div>  
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <hr >');
+            }
+            echo ("</div>
+            </div>
+        </div>
+    </div>
+</div>");
+        }
+        ?>
+    </div>
     <!-- About Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5">
@@ -933,7 +374,7 @@ require_once('config.php');
         </div>
     </div>
     <!-- About End -->
-    
+
 
 
     <!-- Footer Start -->
@@ -964,7 +405,7 @@ require_once('config.php');
                     <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
                 </div>
             </div>
-          
+
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
                 <div class="d-flex flex-column justify-content-start">
@@ -983,8 +424,8 @@ require_once('config.php');
                     AYIDOTE, Cotonou Bénin</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+229 21 30 29 06</p>
                 <a href="mailto:">
-                <p><i class="fa fa-envelope mr-2"></i>pigier.cotonou@pigierbrnin.com</p>
-            </a>
+                    <p><i class="fa fa-envelope mr-2"></i>pigier.cotonou@pigierbrnin.com</p>
+                </a>
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">SUGESTION</h6>
                 <div class="w-100">
                     <div class="input-group">
@@ -997,7 +438,7 @@ require_once('config.php');
             </div>
         </div>
     </div>
-    
+
     <!-- Footer End -->
 
 
